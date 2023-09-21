@@ -1,0 +1,73 @@
+/* !global */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*!header */
+
+header{
+    background-image: url(../img/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.background-transparent{
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 5rem 0 3.5rem 0;
+}
+.titles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title , .title-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 4px 3px 4px black;
+    
+}
+.title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 4rem;
+    letter-spacing: 25px;
+    font-weight: 600;
+    
+}
+.title span{
+    font-weight: 400 ;
+    font-size: 2rem ;
+    letter-spacing: 10px;
+    
+}
+.title-text{
+    padding: 0 15rem;
+}
+
+/*! main */
+
+main{
+    display: flex;
+    padding: 1.5rem;
+   
+}
+/*! menu */
+
+.menu{
+    width: 20%;
+    height: 100vh;
+ 
+
+}
+
+/*! section-main */
+.section{
+   
+}
+
+.section-main img{
+    width: 100%;
+}
