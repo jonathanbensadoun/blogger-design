@@ -1,6 +1,8 @@
 /* !global */
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #0c0c0c;
+    color: white;
 }
 
 
@@ -10,7 +12,7 @@ header{
     background-image: url(../img/image-header.jpg);
     background-size: cover;
     background-position: center;
-    
+        
 }
 .background-transparent{
     background-color: rgba(0, 0, 0, 0.438);
@@ -57,16 +59,129 @@ main{
 /*! menu */
 
 .menu{
-    width: 20%;
-    height: 100vh;
- 
+    display: flex ;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-right: 1.5rem;
+    
+}
+/* search-bar */
+.search-bar{
+    display: flex;
+    
 
 }
 
+.search-bar i{
+    color: #57585b;
+    margin-right: 5px;
+    font-size: 0.8rem;
+}
+.search-bar input::placeholder{
+    color: #0c0c0c;
+}
+.search-bar input{
+    background-color:#57585b ;
+    border: none;
+    width: 100%;
+    
+}
+/* nav-menu */
+.li-menu{
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    
+}
+.link-menu{
+    text-decoration: none;
+
+}
+.link-menu:visited{
+    color: white;
+}
+.ul-menu{
+    padding-bottom: 3.5rem;
+    padding-top: 1rem;
+}
+.fa-bars{
+    padding-top: 2rem;
+    font-size: 0.9rem;
+}
+.newsletter-container span{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: -0.04rem;
+}
+.newsletter-container{
+    border-bottom: 1px solid white;
+    margin-bottom: 0.5rem;
+    padding-bottom:0.2rem ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+.icone{
+    display: flex;
+}
+.icon-newsletter{
+    padding: 0.2rem;
+    margin-left: 3px;
+    font-size: 0.5rem;
+   background-color: #57585b;
+}
+
+/* footer-menu */
+.zone-footer-menu{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rond-logo{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #274e45;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-right: 1rem;
+}
+.b-logo{
+    font-size: 1.5rem;
+}
+.star-footer{
+    font-size: 0.4rem;
+    padding-right: 3px;
+}
+.social-networks-link{
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+.social-networks-link:hover{
+    color: #274e45;
+}
+.social-networks-link:visited{
+    color: white;
+}
+.btn-menu{
+    border: none;
+    background-color: #0c0c0c;
+    color: white;
+    border: 1px solid white;
+}
 /*! section-main */
-.section{
-   
-}
+
 
 .section-main img{
     width: 100%;
